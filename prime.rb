@@ -4,7 +4,7 @@ def prime?(number)
   i=2
   bool = true
   while i<number
-    if (number %i ==0)
+    if (number%i ==0)
       return false
     i+=1
   end
